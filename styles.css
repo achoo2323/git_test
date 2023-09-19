@@ -1,0 +1,103 @@
+.pink {
+    background-color: hsl(307, 66%, 70%);
+    font-family: verdana, dejavu sans, sans-serif;
+}
+
+.blue {
+    color: rgb(0, 0, 255);
+    font-size: 36px;
+}
+
+.font {
+    font-size: 24px;
+}
+
+.green {
+    background-color: hsl(108, 44%, 71%);
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.center {
+    text-align: center;
+}
+
+.black span, .yellow span {
+    font-weight: bold;
+    padding: 5px;
+    text-align: center;
+    border-top: 2px solid grey;
+    border-left: 2px solid grey;
+}
+
+.black span {
+    color: white;
+    background-color: black;
+    border-top: 2px solid grey;
+    border-left: 2px solid grey;
+}
+
+.yellow span {
+    color: black;
+    background-color: yellow;
+    border-bottom: black solid 2px;
+    border-right: black solid 2px;
+}
+
+.avatar.proportioned {
+    width: 300px;
+    height: auto;
+}
+
+.avatar.distorted {
+    width: 200px;
+    height: 400px;
+}
+
+.container .text {
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
+
+--------
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .para {
+    color: hsl(0, 0%, 0%);
+    font-weight: 800;
+    font-size: 22px;
+  }
+  
+  #small-para {
+    font-size: 14px;
+    font-weight: 800;
+  }
+  
+  #confirm-button {
+    background: green;
+    color: white;
+    font-weight: bold;
+  } 
+  
+  .button {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+  }
+  
+  #child {
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+    font-size: 14px;
+  }
+  
+  div.text {
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+    font-weight: 100;
+  }
